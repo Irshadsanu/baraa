@@ -39,7 +39,7 @@ function ContactDetails() {
               referrerpolicy="no-referrer-when-downgrade"
               className="map"
             >
-                     
+                     
             </iframe>
             <p>BRANCH 1 : Dammam town (Seiko), Wadi dawasir District</p>
             <iframe
@@ -52,13 +52,17 @@ function ContactDetails() {
               referrerpolicy="no-referrer-when-downgrade"
               className="map"
             >
-                     
+                     
             </iframe>
-            <p>BRANCH 2 : 18th St. Al Badiya, Opp. Lulu Mall (Previously shira mall)</p>
+            <p>BRANCH 2 : 18th St. Al Badiya, Opp. Lulu Mall (Previously shira mall)</p>
           </div>
           
         </div>
         <form action="">
+          <div className="touch">
+            <h3>Get in Touch</h3>
+            <p>Have Questions? We're here for you. Drop us a line , write us  an email ,or send us a text</p>
+          </div>
           <div className="top">
             <div className="box">
               <label htmlFor="">First Name:</label>
@@ -88,7 +92,13 @@ function ContactDetails() {
             className="msg"
           />
           <label htmlFor="">Message</label>
-          <input type="text" placeholder="Type Your Message" className="msg" />
+          <textarea
+            id="message"
+            placeholder="Type Your Message"
+            className="msg"
+            rows="5"
+          ></textarea>
+          {/* <input type="text" placeholder="Type Your Message" className="msg" /> */}
           <button>Send Message</button>
         </form>
       </div>

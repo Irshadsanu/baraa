@@ -1,0 +1,69 @@
+.globalvisa {
+    padding: 30px 100px;
+    background-color: #f4f3ff;
+}
+.globalvisa h6 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.global-visa-content {
+    background: url("../../Assets/Images/globalVisa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: start;
+    border-radius: 32px 32px 0 0;
+}
+.global-content {
+    width: 40%;
+    text-align: left;
+}
+
+.global-visa-content h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1b1e70;
+}
+.global-visa-content p {
+    font-size: 18px;
+    margin-top: 18px;
+}
+@media (max-width: 1000px) {
+    .global-content {
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .globalvisa {
+        padding: 30px 50px;
+    }
+    .global-content {
+        width: 70%;
+    }
+}
+@media (max-width: 700px) {
+    .global-content {
+        width: 100%;
+    }
+    .global-visa-content {
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 500px) {
+    .globalvisa h6 {
+        font-size: 30px;
+    }
+    .globalvisa {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .global-visa-content h5 {
+        font-size: 20px;
+    }
+
+.global-visa-content p {
+    font-size: 16px;
+}
+}

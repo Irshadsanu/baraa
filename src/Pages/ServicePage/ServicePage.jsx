@@ -9,6 +9,7 @@ import Eservice from "../../Components/Eservice/Eservice";
 import Translations from "../../Components/Translations/Translation";
 import ServiceVisa from "../../Components/ServiceVisa/ServiceVisa";
 import ScrollToTopButton from "../../Components/ScrollToTop/ScrollToTopButton";
+import GlobalVisa from "../../Components/GlobalVisa/GlobalVisa";
 
 function ServicePage() {
   return (
@@ -16,6 +17,7 @@ function ServicePage() {
       <Header />
       <ServiceSpotlight />
       <ServiceBusiness />
+      <GlobalVisa/>
       <ServiceCorporate />
       <ServiceRegular />
       <Eservice />

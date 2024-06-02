@@ -60,7 +60,7 @@ function Review() {
               <div className="in-img">
                 <img src={currentReview.img} alt={currentReview.name} />
               </div>
-              
+
               <div className="info-name">
                 <h4>{currentReview.name}</h4>
                 <h5>{currentReview.title}</h5>
@@ -71,24 +71,25 @@ function Review() {
           <div className="details">
             <p>{`${currentReview.text}`}</p>
           </div>
-
           <div className="navigation-buttons">
-          
-         <img onClick={handleNextReview}
-          src={assets.leftRR}
-          alt="Scroll to top"
-          // style={styles.image}
-        />
-           <img onClick={handleNextReview}
-          src={assets.rightRR}
-          alt="Scroll to top"
-          // style={styles.image}
-        />
+
+            <img onClick={handleNextReview}
+              src={assets.leftRR}
+              alt="Scroll to top"
+            // style={styles.image}
+            />
+            <img onClick={handleNextReview}
+              src={assets.rightRR}
+              alt="Scroll to top"
+            // style={styles.image}
+            />
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+
 
 export default Review;

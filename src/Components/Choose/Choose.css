@@ -156,6 +156,14 @@
 }
 
 @media (max-width: 480px) {
+
+    .choose .choose-content .advantege {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+
     .brands {
         flex-wrap: wrap;
     }
@@ -170,6 +178,6 @@
 
     .choose .choose-content p,
     .choose .choose-content .advantege li h6 {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
