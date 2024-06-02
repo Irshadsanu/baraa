@@ -1,0 +1,134 @@
+.service {
+    text-align: center;
+    padding: 100px 80px 0 80px;
+    background-color: #F4F3FF;
+}
+
+.service h6 {
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF; */
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #5925DC;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.service h4 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.service p {
+    color: #667085;
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.service .service-list {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 32px 32px 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    gap: 50px;
+}
+
+.service .service-list .item {
+    width: 28%;
+    text-align: left;
+}
+
+.service .service-list .item .img-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.service .service-list .item .img-cont img {
+    width: 40px;
+    margin-left: -14px;
+}
+
+.service .service-list .item .img-cont h5 {
+    font-size: 20px;
+    margin-left: 18px;
+    font-weight: 400;
+}
+
+.service .service-list .item P {
+    color: #667085;
+    font-size: 16px;
+    width: 74%;
+    text-align: left;
+}
+
+.service .service-list button {
+    border-radius: 57px;
+    border: 1px solid #F05A28;
+    padding: 12px 20px;
+    background: transparent;
+    display: inline-block;
+    font-size: 18px;
+    color: #F05A28;
+    transition: .4s ease-in;
+    display: flex;
+    align-items: center;
+}
+
+.service .service-list button svg {
+    margin-left: 8px;
+}
+
+.service .service-list button:hover {
+    background-color: #F05A28;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .service .service-list .item {
+        width: 42%;
+    }
+}
+
+@media (max-width: 800px) {
+    .service {
+        padding: 80px 30px 0 30px;
+    }
+
+    .service p {
+        font-size: 16px;
+    }
+
+    .service h4 {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .service h4 {
+        font-size: 30px;
+    }
+
+    .service .service-list .item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service .service-list .item {
+        width: 100%;
+    }
+
+    .service p {
+        width: 90%;
+    }
+}

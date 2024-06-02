@@ -1,0 +1,89 @@
+.eservice {
+    background-color: #F4F3FF;
+    padding: 100px;
+}
+
+
+.eservice h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.eservice .service-list {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 32px 32px 0 0;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    gap: 50px;
+}
+
+.eservice .service-list .item {
+    width: 28%;
+    text-align: left;
+}
+
+.eservice .service-list .item .img-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.eservice .service-list .item .img-cont img {
+    width: 40px;
+    margin-left: -14px;
+    transition: .4s ease-in;
+}
+
+.eservice .service-list .item .img-cont:hover img {
+    width: 60px;
+    margin-left: 0; 
+}
+
+.eservice .service-list .item .img-cont h5 {
+    font-size: 20px;
+    margin-left: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+    .eservice {
+        padding: 100px 50px;
+    }
+
+    .eservice .service-list .item {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .eservice .service-list .item {
+        width: 44%;
+    }
+}
+
+@media (max-width: 640px) {
+    .eservice .service-list .item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .eservice .service-list .item .img-cont h5 {
+        font-size: 18px;
+    }
+
+    .eservice .service-list .item {
+        width: 100%;
+    }
+
+    .eservice h3 {
+        font-size: 30px;
+    }
+
+    .eservice h6 {
+        font-size: 12px;
+    }
+}

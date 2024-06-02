@@ -1,0 +1,101 @@
+.service-corporate {
+    background-color: #F4F3FF;
+    padding: 100px;
+}
+
+.service-corporate h6 {
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF; */
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #5925DC;
+    font-weight: 500;
+}
+
+.service-corporate h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.service-corporate .service-list {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 32px 32px 0 0;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    gap: 50px;
+}
+
+.service-corporate .service-list .item {
+    width: 28%;
+    text-align: left;
+}
+
+.service-corporate .service-list .item .img-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.service-corporate .service-list .item .img-cont img {
+    width: 40px;
+    margin-left: -14px;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+.service-corporate .service-list .item .img-cont:hover img {
+    width: 60px;
+    margin-left: 0; /* Adjust the margin as needed */
+}
+
+.service-corporate .service-list .item .img-cont h5 {
+    font-size: 20px;
+    margin-left: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+    .service-corporate {
+        padding: 100px 50px;
+    }
+
+    .service-corporate .service-list .item {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .service-corporate .service-list .item {
+        width: 44%;
+    }
+}
+
+@media (max-width: 640px) {
+    .service-corporate .service-list .item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-corporate .service-list .item .img-cont h5 {
+        font-size: 18px;
+    }
+
+    .service-corporate .service-list .item {
+        width: 100%;
+    }
+
+    .service-corporate h3 {
+        font-size: 30px;
+    }
+
+    .service-corporate h6 {
+        font-size: 12px;
+    }
+}

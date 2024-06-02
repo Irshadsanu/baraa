@@ -1,0 +1,175 @@
+.main {
+    padding: 0 100px 80px 100px;
+    background-color: #fff;
+}
+
+
+.choose {
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.choose .choose-image {
+    width: 400px;
+    margin-right: 120px;
+}
+
+.img-cont-choos {
+    position: absolute;
+    left: 430px;
+    top: 270px;
+    width: 160px;
+}
+
+.choose .choose-image img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.choose .choose-content {
+    width: 36%;
+    text-align: left;
+}
+
+.choose .choose-content h4 {
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF; */
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #5925DC;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.choose .choose-content h3 {
+    font-size: 40px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.choose .choose-content p {
+    font-size: 16px;
+    color: #667085;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+
+.choose .choose-content .advantege li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.choose .choose-content .advantege li img {
+    margin-right: 10px;
+}
+
+.choose .choose-content .advantege li h6 {
+    font-size: 18px;
+    color: #1D2939;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 1px solid #D0D5DD;
+    padding-bottom: 20px;
+}
+
+.brands li {
+    width: 200px;
+}
+
+.brands li img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    .img-cont-choos {
+        left: 320px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .img-cont-choos {
+        left: 260px;
+        top: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .choose .choose-image {
+        width: 300px;
+    }
+
+    .choose {
+        align-items: center;
+    }
+
+    .main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .img-cont-choos {
+        left: 210px;
+        top: 350px;
+    }
+}
+
+@media (max-width: 800px) {
+    .choose {
+        flex-direction: column;
+    }
+
+    .img-cont-choos {
+        display: none;
+    }
+
+    .choose .choose-image {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .choose .choose-content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .choose .choose-content p {
+        margin: 0 auto 18px;
+    }
+
+    .choose .choose-content .advantege li {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .brands {
+        flex-wrap: wrap;
+    }
+
+    .brands li {
+        width: 150px;
+    }
+
+    .choose .choose-content h3 {
+        font-size: 30px;
+    }
+
+    .choose .choose-content p,
+    .choose .choose-content .advantege li h6 {
+        font-size: 16px;
+    }
+}

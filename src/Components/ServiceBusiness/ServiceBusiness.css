@@ -1,0 +1,107 @@
+.service-business {
+    background-color: #F4F3FF;
+    padding: 70px 100px;
+}
+
+.service-business h6 {
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF; */
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #5925DC;
+    font-weight: 500;
+}
+
+.service-business h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.service-business .service-list {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 32px 32px 0 0;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    gap: 50px;
+}
+
+.service-business .service-list .item {
+    width: 28%;
+    text-align: left;
+}
+
+.service-business .service-list .item .img-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+.service-business .service-list .item .img-cont:hover img {
+    width: 60px;
+    margin-left: 0; /* Adjust the margin as needed */
+}
+
+.service-business .service-list .item .img-cont img {
+    width: 40px;
+    margin-left: -14px;
+    transition: .4s ease-in;
+}
+
+.service-business .service-list .item .img-cont h5 {
+    font-size: 20px;
+    margin-left: 18px;
+    font-weight: 400;
+}
+
+.service-business .service-list .item P {
+    color: #667085;
+    font-size: 16px;
+    width: 74%;
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .service-business {
+        padding: 100px 50px;
+    }
+
+    .service-business .service-list .item {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .service-business .service-list .item {
+        width: 44%;
+    }
+}
+
+@media (max-width: 640px) {
+    .service-business .service-list .item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-business .service-list .item .img-cont h5 {
+        font-size: 18px;
+    }
+
+    .service-business .service-list .item {
+        width: 100%;
+    }
+
+    .service-business h3 {
+        font-size: 30px;
+    }
+
+    .service-business h6 {
+        font-size: 12px;
+    }
+}

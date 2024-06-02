@@ -1,0 +1,105 @@
+.spotlight {
+    background: url(../../Assets/Images/1\ Hero\ Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: calc(100vh - 100px); */
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 100vh;
+}
+
+.two {
+    background: url(../../Assets/Images/Home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.three {
+    background: url(../../Assets/Images/Homw3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slick-slider {
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* z-index: -1; */
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.spotlight .content {
+    padding: 100px;
+    text-align: left;
+}
+
+.spotlight .content h3 {
+    font-size: 38px;
+    color: #fff;
+    font-family: 'Cocogoose';
+    font-weight: 300;
+}
+
+.spotlight .content h4 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+.spotlight .content button {
+    color: #fff;
+    border-radius: 57px;
+    border: 1px solid #F05A28;
+    padding: 12px 20px;
+    background: transparent;
+    display: inline-block;
+    font-size: 18px;
+    transition: .4s ease-in;
+}
+
+.spotlight .content button:hover {
+    background-color: #F05A28;
+    color: #fff;
+}
+
+.spotlight .content button a {
+    color: #fff;
+}
+
+@media (max-width: 640px) {
+    .spotlight .content {
+        padding: 50px;
+    }
+
+    .spotlight .content h3 {
+        font-size: 36px;
+    }
+
+    .spotlight .content h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .spotlight .content {
+        padding: 50px 20px;
+    }
+
+    .spotlight .content h3 {
+        font-size: 30px;
+    }
+
+    .spotlight .content h4 {
+        font-size: 18px;
+    }
+}

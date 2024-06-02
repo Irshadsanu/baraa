@@ -1,0 +1,55 @@
+.contactspotlight {
+    padding: 180px 100px 100px 80px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background: url(../../Assets/Images/aboutspotlight.png);
+    background-attachment: fixed;
+    height: 150px;
+}
+
+.contactspotlight .content {
+    width: 60%;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.contactspotlight .content h3 {
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Cocogoose';
+    font-weight: 300;
+}
+
+.contactspotlight .content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .contactspotlight .content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .contactspotlight .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .contactspotlight {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactspotlight .content h3 {
+        font-size: 24px;
+    }
+
+    .contactspotlight .content p {
+        font-size: 16px;
+    }
+}

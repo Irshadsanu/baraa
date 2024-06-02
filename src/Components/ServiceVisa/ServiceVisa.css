@@ -1,0 +1,53 @@
+.service-visa {
+    text-align: center;
+    padding: 100px 80px 0 80px;
+    background-color: #F4F3FF;
+}
+
+.service-visa h4 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.service-visa .content-box {
+    background-color: #fff;
+    border-radius: 32px 32px 0 0;
+    padding: 100px;
+}
+
+.service-visa .content-box p {
+    color: #667085;
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+    .service-visa {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .service-visa .content-box p {
+        width: 100%;
+    }
+
+    .service-visa .content-box {
+        padding: 60px;
+    }
+
+    .service-visa h4 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-visa h4 {
+        font-size: 30px;
+    }
+
+    .service-visa .content-box {
+        padding: 50px 40px;
+    }
+}

@@ -1,0 +1,37 @@
+.mobile .nav {
+    background-color: #1E164E;
+    width: 100%;
+    padding: 80px 0;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    opacity: 0 !important;
+    display: block;
+    transition: .2s ease-in-out;
+    text-align: center;
+    display: none;
+    height: 80vh;
+    z-index: 44;
+}
+
+.mobile .nav li {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.link {
+    color: #fff;
+}
+
+.mobile .nav.open {
+    opacity: 1 !important;
+    display: block;
+}
+
+.mobile .nav.close {
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 30px;
+}

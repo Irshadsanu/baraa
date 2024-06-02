@@ -1,0 +1,70 @@
+.impact {
+    padding: 100px;
+}
+
+.impact h4 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.impact p {
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.impact button {
+    background-color: #F05A28;
+    color: #fff;
+    border-radius: 56px;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+.impact button:hover {
+    background-color: #61210c;
+}
+
+@media (max-width: 1000px) {
+    .impact {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .impact p {
+        width: 84%;
+    }
+}
+
+@media (max-width: 640px) {
+    .impact {
+        padding-top: 20px;
+    }
+
+    .impact p {
+        width: 94%;
+    }
+}
+
+@media (max-width: 480px) {
+    .impact h4 {
+        font-size: 30px;
+    }
+
+    .impact p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .impact {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

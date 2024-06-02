@@ -1,0 +1,198 @@
+footer {
+    background-color: #1E164E;
+}
+
+footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #1D2939;
+    padding: 20px 50px;
+}
+
+footer .top-footer .logoside {
+    width: 22%;
+}
+
+footer .top-footer .logoside img {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+footer .top-footer .logoside .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .top-footer .logoside .social li {
+    color: #fff;
+    transition: .4s ease-in;
+}
+
+footer .top-footer .logoside .social li:hover {
+    transform: scale(1.4);
+}
+
+footer .top-footer .service-footer {
+    width: 16%;
+}
+
+
+footer .top-footer .company {
+    width: 16%;
+}
+
+footer .top-footer form {
+    width: 24%;
+    text-align: left;
+}
+
+footer .top-footer form input {
+    border-radius: 6px;
+    padding: 24px 10px 24px 32px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .top-footer form input[type=submit] {
+    border-radius: 6px;
+    padding: 22px 32px;
+    background-color: #17B9DC;
+    margin-top: 10px;
+    width: 100%;
+    transition: .4s ease-in;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer .top-footer form input[type=submit]:hover {
+    background-color: #188ca6;
+}
+
+footer .top-footer .service-footer h3,
+footer .top-footer .company h3,
+footer .top-footer form h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+footer .top-footer .service-footer h3:after,
+footer .top-footer .company h3:after {
+    content: "";
+    width: 40%;
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(4px);
+    border-radius: 20px;
+}
+
+footer .top-footer .service-footer li,
+footer .top-footer .company li,
+footer .top-footer form li {
+    color: #EAECF0;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-bottom: 20px;
+}
+
+.bottom-footer .copyright,
+.bottom-footer .terms {
+    display: flex;
+}
+
+.bottom-footer .terms li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 1px solid #3E1C96;
+    padding: 0 14px;
+}
+
+.bottom-footer .copyright li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 1px solid #3E1C96;
+    padding: 0 14px;
+}
+
+.bottom-footer .copyright li:last-child,
+.bottom-footer .terms li:last-child {
+    border-right: 0;
+}
+
+@media (max-width: 1000px) {
+    .bottom-footer {
+        flex-wrap: wrap;
+    }
+
+    .bottom-footer .copyright,
+    .bottom-footer .terms {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    footer .top-footer {
+        flex-direction: column;
+    }
+
+    footer .top-footer .logoside,
+    footer .top-footer .service-footer,
+    footer .top-footer .company,
+    footer .top-footer form {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .top-footer .service-footer h3,
+    footer .top-footer .company h3,
+    footer .top-footer form h3,
+    footer .top-footer .service-footer li,
+    footer .top-footer .company li,
+    footer .top-footer form li {
+        text-align: center;
+    }
+
+    footer .top-footer form input[type=submit] {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    footer .top-footer .service-footer h3:after,
+    footer .top-footer .company h3:after {
+        margin: 0 auto;
+        width: 20%;
+    }
+}
+
+@media (max-width: 640px) {
+    .bottom-footer {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .top-footer form input[type=submit] {
+        width: 54%;
+    }
+}

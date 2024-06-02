@@ -1,0 +1,167 @@
+.articles {
+    padding: 50px;
+}
+
+.articles h6 {
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF; */
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 56px;
+    font-size: 15px;
+    color: #5925DC;
+    font-weight: 500;
+}
+
+.articles .article-home {
+    padding: 100px 0 100px 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background: url(../../Assets/Images/invest.png);
+    width: 70%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.articles .article-home h3 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.articles .article-home p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.articles .article-home button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.articles .article-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 150px;
+}
+
+.articles .article-details span {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.articles p {
+    padding: 0 50px;
+    text-align: left;
+    width: 76%;
+    margin: 0 auto 30px;
+}
+
+.articles p.imgp {
+    width: 80%;
+    padding-left: 0;
+    margin: 0 0 20px 0;
+}
+
+.articles .article-invest {
+    padding: 100px 0 100px 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background: url(../../Assets/Images/invest2.png);
+    width: 70%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+.articles .article-invest h3 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.articles .article-invest p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.articles .article-invest button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .articles .article-home,
+    .articles .article-invest {
+        width: 65%;
+        padding: 60px 80px 40px 80px;
+    }
+
+    .articles .article-details {
+        padding: 0 100px;
+    }
+
+    .articles .article-details span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .articles {
+        padding: 50px 0;
+    }
+
+    .articles .article-home h3,
+    .articles .article-invest h3 {
+        font-size: 30px;
+    }
+
+    .articles .article-home p,
+    .articles .article-invest p {
+        font-size: 16px;
+    }
+
+    .articles p {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .articles .article-details {
+        padding: 0 42px;
+    }
+
+    .articles .article-home,
+    .articles .article-invest {
+        width: 50%;
+    }
+
+    .articles .article-home h3,
+    .articles .article-invest h3 {
+        font-size: 22px;
+    }
+
+    .articles .article-home p,
+    .articles .article-invest p {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .articles .article-details {
+        padding: 0 14px;
+    }
+}

@@ -1,0 +1,53 @@
+.blogSpotlight {
+    padding: 180px 100px 100px 80px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background: url(../../Assets/Images/aboutspotlight.png);
+    background-attachment: fixed;
+    height: 150px;
+}
+
+.blogSpotlight .content {
+    width: 60%;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.blogSpotlight .content h3 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.blogSpotlight .content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .blogSpotlight .content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .blogSpotlight .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .blogSpotlight {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blogSpotlight .content h3 {
+        font-size: 24px;
+    }
+
+    .blogSpotlight .content p {
+        font-size: 16px;
+    }
+}

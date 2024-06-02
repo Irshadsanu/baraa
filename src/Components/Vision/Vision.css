@@ -1,0 +1,86 @@
+.vision {
+    display: flex;
+    padding: 100px;
+    background-color: #1B1E70;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vision .vision-img {
+    width: 350px;
+}
+
+.vision .vision-img img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.vision .vision-middle {
+    width: 30%;
+    text-align: left;
+}
+
+.vision .vision-middle h6 {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.vision .vision-middle p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.vision p.vision-para {
+    width: 30%;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    margin-top: 40px;
+}
+
+@media (max-width: 1100px) {
+    .vision .vision-img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .vision {
+        flex-direction: column;
+    }
+
+    .vision .vision-img {
+        margin-bottom: 30px;
+    }
+
+    .vision .vision-middle,
+    .vision p.vision-para {
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .vision .vision-img {
+        width: 260px;
+    }
+
+    .vision .vision-middle p {
+        font-size: 16px;
+    }
+
+    .vision .vision-middle h6 {
+        font-size: 24px;
+    }
+
+    .vision .vision-middle,
+    .vision p.vision-para {
+        width: 80%;
+    }
+
+    .vision {
+        padding: 100px 40px;
+    }
+}
