@@ -130,5 +130,6 @@
 
     .service p {
         width: 90%;
+        text-align: justify;
     }
 }

@@ -49,7 +49,7 @@
 
 .translation .service-list .item .img-cont:hover img {
     width: 60px;
-    margin-left: 0; 
+    margin-left: 0;
 }
 
 .translation .service-list .item .img-cont h5 {
@@ -96,5 +96,6 @@
     .translation p {
         width: 100%;
         font-size: 16px;
+        text-align: justify;
     }
 }

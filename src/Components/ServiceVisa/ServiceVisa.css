@@ -50,4 +50,8 @@
     .service-visa .content-box {
         padding: 50px 40px;
     }
+
+    .service-visa .content-box p {
+        text-align: justify;
+    }
 }

@@ -69,6 +69,7 @@
 
     .vision .vision-middle p {
         font-size: 16px;
+        text-align: justify;
     }
 
     .vision .vision-middle h6 {
@@ -78,6 +79,10 @@
     .vision .vision-middle,
     .vision p.vision-para {
         width: 80%;
+    }
+
+    .vision p.vision-para {
+        text-align: justify;
     }
 
     .vision {

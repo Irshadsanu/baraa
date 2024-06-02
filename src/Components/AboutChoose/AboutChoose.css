@@ -135,4 +135,8 @@
         flex-direction: column;
         align-items: baseline;
     }
+
+    .about-choose .choose-text p {
+        text-align: justify;
+    }
 }

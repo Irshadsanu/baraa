@@ -181,6 +181,10 @@
         font-size: 14px;
     }
 
+    .choose .choose-content p {
+        text-align: justify;
+    }
+
     .choose .choose-content .advantege {
         display: flex;
         align-items: baseline;
