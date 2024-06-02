@@ -172,4 +172,10 @@
     .choose .choose-content .advantege li h6 {
         font-size: 16px;
     }
+
+    .choose .choose-content .advantege {
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+    }
 }

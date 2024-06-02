@@ -15,14 +15,21 @@ function ContactDetails() {
               <IoCallOutline />
               <span>Call Us</span>
             </div>
-            <p>+966 553542255, +966 542719195,<br/>+966 506886525, +966 558511498</p>
+            <p>
+              +966 553542255, +966 542719195,
+              <br />
+              +966 506886525, +966 558511498
+            </p>
           </div>
           <div className="item">
             <div className="top">
               <CiMail />
               <span>E-Mail</span>
             </div>
-            <p>info@baraaservice.com, visa@baraaservice.com, translation@baraaservice.com </p>
+            <p>
+              info@baraaservice.com, visa@baraaservice.com,
+              translation@baraaservice.com{" "}
+            </p>
           </div>
           <div className="item">
             <div className="top">
@@ -54,11 +61,20 @@ function ContactDetails() {
             >
                      
             </iframe>
-            <p>BRANCH 2 : 18th St. Al Badiya, Opp. Lulu Mall (Previously shira mall)</p>
+            <p>
+              BRANCH 2 : 18th St. Al Badiya, Opp. Lulu Mall
+              (Previously shira mall)
+            </p>
           </div>
-          
         </div>
         <form action="">
+          <div className="touch">
+            <h3>Get in Touch</h3>
+            <p>
+              Have Questions? We're here for you. Drop us a line , write us an
+              email ,or send us a
+            </p>
+          </div>
           <div className="top">
             <div className="box">
               <label htmlFor="">First Name:</label>
