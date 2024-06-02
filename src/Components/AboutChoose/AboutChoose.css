@@ -139,4 +139,8 @@
     .about-choose .choose-text p {
         text-align: justify;
     }
+
+    .about-choose .advantege li {
+        padding-left: 30px;
+    }
 }
