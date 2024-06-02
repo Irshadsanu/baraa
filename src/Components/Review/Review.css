@@ -14,14 +14,14 @@
 }
 
 .review .top-review h4 {
-    border: 1px solid #5925dc;
-    background-color: #f4f3ff;
-    padding: 6px 16px;
+    /* border: 1px solid #5925DC;
+    background-color: #F4F3FF;
+    padding: 6px 16px; */
     border-radius: 30px;
     display: inline-block;
     margin-bottom: 16px;
     font-size: 12px;
-    color: #5925dc;
+    color: #17B9DC;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -106,7 +106,7 @@
 
 .prev-button,
 .next-button {
-    background-color: #5925dc;
+    background-color: #5925DC;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -117,7 +117,7 @@
 
 .prev-button:hover,
 .next-button:hover {
-    background-color: #4a1fb8;
+    background-color: #4A1FB8;
 }
 
 .review .bottom-review .item {
@@ -125,10 +125,11 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    /* border-top: 1px solid #4a1fb8; */
-    /* padding-top: 30px; */
-    /* margin-bottom: 30px; */
+    border-top: 1px solid #4A1FB8;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 .bottom-review .item .info {
     width: 80%;
@@ -197,15 +198,20 @@
     color: #fff;
     text-align: left;
     /* font-family: 'Arial', sans-serif;  */
+
 }
 
 .bottom-review .item .details p::before,
 .bottom-review .item .details p::after {
     content: '"';
-    color: #9f9e9d; /* Adjust quote color */
-    font-size: 22px; /* Adjust quote size */
+    color: #9f9e9d;
+    /* Adjust quote color */
+    font-size: 22px;
+    /* Adjust quote size */
     /* vertical-align: middle; Adjust vertical alignment */
+
 }
+
 /* .bottom-review .item .like {
     width: 80px;
 } */
@@ -231,6 +237,27 @@
 }
 
 @media (max-width: 800px) {
+
+    /* .review {
+        padding: 80px 40px;
+    } */
+    .review .top-review h5 {
+        font-size: 36px;
+    }
+
+    .review .top-review .valuation .total h6,
+    .review .top-review .valuation .rating h6 {
+        font-size: 18px;
+    }
+
+    .review .top-review .right-review {
+        width: 350px;
+    }
+
+    .bottom-review {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 640px) {
@@ -242,45 +269,90 @@
         margin: 0 auto 40px;
     }
     .bottom-review {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .navigation-buttons {
-        right: 70px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 @media (max-width: 480px) {
-    .review .top-review {
-        width: 100%;
+    .review .top-review .right-review {
+        width: 270px;
+    }
+
+    .review .top-review h5 {
+        font-size: 30px;
+    }
+
+    .review .top-review .valuation .total h6,
+    .review .top-review .valuation .rating h6 {
+        font-size: 16px;
+    }
+
+    .review .top-review .valuation .amout p,
+    .review .top-review .amout-rate p {
+        font-size: 26px;
+    }
+
+    .review .top-review .valuation {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review .top-review .valuation .amout,
+    .review .top-review .amout-rate {
+        justify-content: center;
+    }
+
+    .bottom-review .item .details p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    .review {
+        padding: 80px 10px;
+    }
+
+    .review .top-review .right-review {
+        width: 270px;
+    }
+
+    .review .top-review h5 {
+        font-size: 30px;
     }
     .bottom-review {
         width: 100%;
     }
+
+    .review .top-review .valuation .amout,
+    .review .top-review .amout-rate {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 410px) {
+
     .bottom-review .item .details p {
         font-size: 14px;
     }
-    .review .top-review h5 {
-        font-size: 28px;
-    }
+
     .bottom-review .item .info .info-details .in-img {
         width: 80px;
     }
+
     .bottom-review .item .info .info-details {
         align-items: center;
     }
-    .bottom-review .item .info,
-    .bottom-review .item .details {
-        width: 100%;
+
+    .bottom-review .item .info .info-details h4 {
+        font-size: 16px;
     }
-    .navigation-buttons {
-        right: 0;
+
+    .bottom-review .item .info .info-details h5 {
+        font-size: 12px;
     }
-    .review .top-review{
-        margin-bottom: 20px;
-    }
-    .navigation-buttons{
-        top: 110%;
-        right: 10px;
+
+    .bottom-review {
+        padding-bottom: 0;
     }
 }
