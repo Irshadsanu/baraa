@@ -207,6 +207,7 @@
         width: 300px;
         /* margin-left: 4px; */
         margin: 0 auto;
+        margin-left: -20px;
     }
 
     .contactdetails .main-bx form {
