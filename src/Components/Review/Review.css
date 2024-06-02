@@ -25,6 +25,7 @@
 
 .review .top-review .left-review {
     width: 40%;
+    margin: 0 auto;
     /* text-align: left; */
 }
 
@@ -330,5 +331,60 @@
     .review .top-review .valuation .amout,
     .review .top-review .amout-rate {
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .review {
+        padding: 80px 10px;
+    }
+    .review .top-review .right-review {
+        width: 270px;
+    }
+
+    .review .top-review h5 {
+        font-size: 30px;
+    }
+
+    .review .top-review .valuation .total h6,
+    .review .top-review .valuation .rating h6 {
+        font-size: 16px;
+    }
+
+    .review .top-review .valuation .amout p,
+    .review .top-review .amout-rate p {
+        font-size: 26px;
+    }
+
+    .review .top-review .valuation {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review .top-review .valuation .amout,
+    .review .top-review .amout-rate {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 410px) {
+   
+    .bottom-review .item .details p{
+        font-size: 14px;
+    }
+    .bottom-review .item .info .info-details .in-img{
+        width: 80px;
+    }
+    .bottom-review .item .info .info-details{
+        align-items: center;
+    }
+    .bottom-review .item .info .info-details h4 {
+        font-size: 16px;
+    }
+    .bottom-review .item .info .info-details h5{
+        font-size: 12px;
+    }
+    .bottom-review{
+        padding-bottom: 0;
     }
 }
