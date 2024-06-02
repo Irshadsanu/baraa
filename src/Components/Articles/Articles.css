@@ -24,6 +24,7 @@
     margin: 0 auto;
     background-repeat: no-repeat;
     text-align: left;
+    border-radius: 8px;
 }
 
 .articles .article-home h3 {
@@ -80,6 +81,7 @@
     margin: 0 auto;
     background-repeat: no-repeat;
     text-align: left;
+    border-radius: 6px;
 }
 
 .articles .article-invest h3 {
