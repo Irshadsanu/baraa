@@ -73,7 +73,7 @@
 
 @media (max-width: 480px) {
     .service-regular .service-list .item .img-cont h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .service-regular .service-list .item {
@@ -81,10 +81,25 @@
     }
 
     .service-regular h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .service-regular h6 {
         font-size: 12px;
+    }
+
+    .service-regular {
+        padding: 30px;
+        padding-top: 0;
+    }
+
+    .service-regular .service-list {
+        padding: 30px;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+    .service-regular .service-list .item .img-cont img {
+        width: 30px;
     }
 }

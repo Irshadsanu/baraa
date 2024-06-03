@@ -51,7 +51,8 @@
 
 .service-corporate .service-list .item .img-cont:hover img {
     width: 60px;
-    margin-left: 0; /* Adjust the margin as needed */
+    margin-left: 0;
+    /* Adjust the margin as needed */
 }
 
 .service-corporate .service-list .item .img-cont h5 {
@@ -84,7 +85,7 @@
 
 @media (max-width: 480px) {
     .service-corporate .service-list .item .img-cont h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .service-corporate .service-list .item {
@@ -92,10 +93,24 @@
     }
 
     .service-corporate h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .service-corporate h6 {
         font-size: 12px;
+    }
+
+    .service-corporate {
+        padding: 30px;
+    }
+
+    .service-corporate .service-list {
+        margin-top: 30px;
+        gap: 18px;
+        padding: 30px 10px 30px 30px;
+    }
+
+    .service-corporate .service-list .item .img-cont img {
+        width: 30px;
     }
 }

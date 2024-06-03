@@ -39,7 +39,7 @@
 
 .eservice .service-list .item .img-cont:hover img {
     width: 60px;
-    margin-left: 0; 
+    margin-left: 0;
 }
 
 .eservice .service-list .item .img-cont h5 {
@@ -72,7 +72,7 @@
 
 @media (max-width: 480px) {
     .eservice .service-list .item .img-cont h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .eservice .service-list .item {
@@ -80,10 +80,25 @@
     }
 
     .eservice h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .eservice h6 {
         font-size: 12px;
+    }
+
+    .eservice {
+        padding: 30px;
+        padding-top: 0;
+    }
+
+    .eservice .service-list {
+        margin-top: 30px;
+        gap: 18px;
+        padding: 30px 10px 30px 30px;
+    }
+
+    .eservice .service-list .item .img-cont img {
+        width: 30px;
     }
 }

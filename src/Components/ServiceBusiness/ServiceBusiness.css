@@ -42,9 +42,11 @@
     cursor: pointer;
     transition: .4s ease-in;
 }
+
 .service-business .service-list .item .img-cont:hover img {
     width: 60px;
-    margin-left: 0; /* Adjust the margin as needed */
+    margin-left: 0;
+    /* Adjust the margin as needed */
 }
 
 .service-business .service-list .item .img-cont img {
@@ -91,7 +93,7 @@
 
 @media (max-width: 480px) {
     .service-business .service-list .item .img-cont h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .service-business .service-list .item {
@@ -99,10 +101,25 @@
     }
 
     .service-business h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .service-business h6 {
         font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .service-business {
+        padding: 30px;
+    }
+
+    .service-business .service-list {
+        margin-top: 20px;
+        padding: 30px 10px 30px 30px;
+        gap: 18px;
+    }
+
+    .service-business .service-list .item .img-cont img {
+        width: 30px;
     }
 }

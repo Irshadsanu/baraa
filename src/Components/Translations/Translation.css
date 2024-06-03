@@ -82,7 +82,7 @@
 
 @media (max-width: 480px) {
     .translation .service-list .item .img-cont h5 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .translation .service-list .item {
@@ -90,12 +90,27 @@
     }
 
     .translation h4 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     .translation p {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
         text-align: justify;
+    }
+
+    .translation {
+        padding: 30px;
+        padding-top: 0;
+    }
+
+    .translation .service-list {
+        margin-top: 30px;
+        gap: 18px;
+        padding: 30px 10px 30px 30px;
+    }
+
+    .translation .service-list .item .img-cont img {
+        width: 30px;
     }
 }

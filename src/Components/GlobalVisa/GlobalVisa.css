@@ -83,5 +83,22 @@
 @media (max-width:480px) {
     .global-visa-content p {
         text-align: justify;
+        font-size: 14px;
+    }
+
+    .globalvisa h6 {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    .globalvisa {
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .global-visa-content {
+        padding: 30px 24px;
+        margin-bottom: 0;
     }
 }
