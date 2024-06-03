@@ -50,11 +50,19 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    transition: .4s ease-in;
 }
 
 .service .service-list .item .img-cont img {
     width: 40px;
     margin-left: -14px;
+    transition: .4s ease-in;
+}
+
+
+.service .service-list .item .img-cont:hover img {
+    width: 60px;
+    margin-left: 0; /* Adjust the margin as needed */
 }
 
 .service .service-list .item .img-cont h5 {

@@ -44,7 +44,7 @@ const styles = {
     right: '20px',
     width: '40px',  // Adjust size as needed
     height: '40px', // Adjust size as needed
-    backgroundColor: '#5925DC', // Background color
+    backgroundColor: '#000000', // Background color
     borderRadius: '50%', // Makes the container circular
     display: 'flex',
     alignItems: 'center',

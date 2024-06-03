@@ -22,7 +22,7 @@ function ServicePage() {
       <ServiceRegular />
       <Eservice />
       <Translations />
-      <ServiceVisa />
+      {/* <ServiceVisa /> */}
       <Footer />
       <ScrollToTopButton />
     </div>

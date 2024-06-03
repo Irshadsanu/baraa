@@ -204,9 +204,9 @@
 .bottom-review .item .details p::before,
 .bottom-review .item .details p::after {
     content: '"';
-    color: #9f9e9d;
+    color: #e7c096;
     /* Adjust quote color */
-    font-size: 22px;
+    font-size: 30px;
     /* Adjust quote size */
     /* vertical-align: middle; Adjust vertical alignment */
 
