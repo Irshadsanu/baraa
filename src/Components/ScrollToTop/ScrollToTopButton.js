@@ -51,7 +51,7 @@ const styles = {
     justifyContent: 'center',
     cursor: 'pointer',
     boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', 
-    zIndex:1,
+    zIndex:99,
       },
   image: {
     width: '40px',  // Adjust size as needed

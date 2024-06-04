@@ -322,13 +322,13 @@
     }
 
     .bottom-review .item .details p {
-        text-align: justify;
+        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
     .review {
-        padding: 80px 10px;
+        padding: 80px 24px;
     }
 
     .review .top-review .right-review {
@@ -336,7 +336,7 @@
     }
 
     .review .top-review h5 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .bottom-review {

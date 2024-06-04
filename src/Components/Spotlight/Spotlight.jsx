@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 function Spotlight() {
   var settings = {
     infinite: true,
-    speed: 1500,
+    speed: 2500,
     slidesToShow: 1,
     accessibility: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2500,
     cssEase: "ease-in-out",
   };
   return (
