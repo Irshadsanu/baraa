@@ -36,7 +36,14 @@ function Footer() {
               <FaLinkedinIn />
             </li>
             <li>
-              <FaFacebook />
+              <a
+                href="https://www.facebook.com/share/2wj8yW8QSP47UjSJ/?mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <FaFacebook />
+              </a>
             </li>
           </ul>
         </div>
