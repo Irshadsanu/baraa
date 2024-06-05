@@ -48,7 +48,7 @@
 
 .service .service-list .item .img-cont {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 16px;
     transition: .4s ease-in;
 }
@@ -62,7 +62,8 @@
 
 .service .service-list .item .img-cont:hover img {
     width: 60px;
-    margin-left: 0; /* Adjust the margin as needed */
+    margin-left: 0;
+    /* Adjust the margin as needed */
 }
 
 .service .service-list .item .img-cont h5 {

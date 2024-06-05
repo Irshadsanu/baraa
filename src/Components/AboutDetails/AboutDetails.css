@@ -99,4 +99,8 @@
     .about-choose .choose-text p {
         text-align: justify;
     }
+
+    .aboutdetails .details .content-details h6.vis-hed {
+        margin-left: -20px;
+    }
 }

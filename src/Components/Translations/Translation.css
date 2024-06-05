@@ -36,7 +36,7 @@
 
 .translation .service-list .item .img-cont {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 16px;
     cursor: pointer;
 }
@@ -44,11 +44,11 @@
 .translation .service-list .item .img-cont img {
     width: 40px;
     margin-left: -14px;
-    transition: .4s ease-in;
+    transition: transform 0.4s ease-in, margin-left 0.4s ease-in;
 }
 
 .translation .service-list .item .img-cont:hover img {
-    width: 60px;
+    transform: scale(1.01);
     margin-left: 0;
 }
 

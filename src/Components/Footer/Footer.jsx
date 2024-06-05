@@ -4,7 +4,7 @@ import { assets } from "../../Assets/Assets";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
-import { useNavigate,Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Footer() {
   const navigator = useNavigate();
@@ -12,7 +12,7 @@ function Footer() {
   function scrollToTop() {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   }
 
@@ -23,7 +23,14 @@ function Footer() {
           <img src={assets.Logo} alt="" />
           <ul className="social">
             <li>
-              <FaInstagram />
+              <a
+                href="https://www.instagram.com/baraaglobal?igsh=MXhibDN6bzB4d3Jycg=="
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <FaInstagram />
+              </a>
             </li>
             <li>
               <FaLinkedinIn />
@@ -42,10 +49,18 @@ function Footer() {
         </ul>
         <ul className="company">
           <h3>Company</h3>
-          <Link to={"/about"} onClick={scrollToTop}><li>About Us</li></Link>
-          <Link to={"/contact"} onClick={scrollToTop}><li>Contact Info</li></Link>
-          <Link to={"/service"} onClick={scrollToTop}><li>Our Service</li></Link>
-          <Link to={"/blog"} onClick={scrollToTop}><li>Blog</li></Link>
+          <Link to={"/about"} onClick={scrollToTop}>
+            <li>About Us</li>
+          </Link>
+          <Link to={"/contact"} onClick={scrollToTop}>
+            <li>Contact Info</li>
+          </Link>
+          <Link to={"/service"} onClick={scrollToTop}>
+            <li>Our Service</li>
+          </Link>
+          <Link to={"/blog"} onClick={scrollToTop}>
+            <li>Blog</li>
+          </Link>
         </ul>
         <form action="">
           <h3>Subscribe</h3>

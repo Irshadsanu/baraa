@@ -31,20 +31,20 @@
 }
 
 .service-business .service-list .item {
-    width: 28%;
+    width: 29%;
     text-align: left;
 }
 
 .service-business .service-list .item .img-cont {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 16px;
     cursor: pointer;
     transition: .4s ease-in;
 }
 
 .service-business .service-list .item .img-cont:hover img {
-    width: 60px;
+    transform: scale(1.01);
     margin-left: 0;
     /* Adjust the margin as needed */
 }
@@ -52,7 +52,7 @@
 .service-business .service-list .item .img-cont img {
     width: 40px;
     margin-left: -14px;
-    transition: .4s ease-in;
+    transition: transform 0.4s ease-in, margin-left 0.4s ease-in;
 }
 
 .service-business .service-list .item .img-cont h5 {
@@ -69,14 +69,17 @@
     text-align: left;
 }
 
+@media (max-width: 1100px) {
+    .service-business .service-list .item {
+        width: 40%;
+    }
+}
+
 @media (max-width: 1000px) {
     .service-business {
         padding: 100px 50px;
     }
 
-    .service-business .service-list .item {
-        width: 40%;
-    }
 }
 
 @media (max-width: 800px) {

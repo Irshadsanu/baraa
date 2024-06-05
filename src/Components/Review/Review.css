@@ -10,7 +10,7 @@
     /* justify-content: center; */
     /* margin-bottom: 40px; */
     align-items: center;
-    width: 40%;
+    width: 38%;
 }
 
 .review .top-review h4 {
@@ -33,7 +33,7 @@
 
 .review .top-review h5 {
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     /* margin-bottom: 20px; */
     font-weight: 600;
 }
@@ -91,7 +91,7 @@
 
 .bottom-review {
     /* padding: 0px 50px 50px 50px; */
-    width: 54%;
+    width: 56%;
 }
 
 .navigation-buttons {
@@ -228,7 +228,7 @@
     }
 
     .review .top-review h5 {
-        font-size: 38px;
+        font-size: 36px;
     }
 }
 
