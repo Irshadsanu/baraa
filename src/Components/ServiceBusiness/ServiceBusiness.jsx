@@ -2,10 +2,9 @@ import React from "react";
 import "./ServiceBusiness.css";
 import { assets } from "../../Assets/Assets";
 
-
 function ServiceBusiness() {
   return (
-    <div className="service-business">
+    <div className="service-business" id="new-business-setup">
       <h6>LICENSING SERVICES</h6>
       <h3>New Business Setup</h3>
       <div className="service-list">
