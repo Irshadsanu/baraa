@@ -3,7 +3,7 @@ import "./GlobalVisa.css"
 
 const GlobalVisa = () => {
     return (
-        <div className='globalvisa'>
+        <div className='globalvisa' id='visa'>
             <h6>Global Visa Services</h6>
             <div className="global-visa-content">
                 <div className="global-content">

@@ -16,6 +16,7 @@ function Spotlight() {
     autoplaySpeed: 2500,
     cssEase: "ease-in-out",
   };
+  
   return (
     <Slider {...settings}>
       <div>

@@ -16,6 +16,10 @@ function Footer() {
     });
   }
 
+  function navComponent() {
+
+  }
+
   return (
     <footer>
       <div className="top-footer">
@@ -49,10 +53,18 @@ function Footer() {
         </div>
         <ul className="service-footer">
           <h3>Services</h3>
+          <Link to="/service/visa" >
           <li>Visa Assistance</li>
+          </Link>
+          <Link to={"/service/translations"} onClick={scrollToTop}>
           <li>Translation</li>
+          </Link>
+          <Link to={"/service/business"} onClick={scrollToTop}>
           <li>New Business Setup</li>
+          </Link>
+          <Link to={"/service/corporate"} onClick={scrollToTop}>
           <li>Legal Support</li>
+          </Link>
         </ul>
         <ul className="company">
           <h3>Company</h3>

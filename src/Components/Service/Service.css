@@ -53,7 +53,7 @@
     transition: .4s ease-in;
 }
 
-.service .service-list .item .img-cont img {
+.service .service-list .item .img-cont img { 
     width: 40px;
     margin-left: -14px;
     transition: .4s ease-in;
@@ -61,7 +61,7 @@
 
 
 .service .service-list .item .img-cont:hover img {
-    width: 60px;
+    transform: scale(1.01);
     margin-left: 0;
     /* Adjust the margin as needed */
 }

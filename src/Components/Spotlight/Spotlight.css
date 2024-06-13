@@ -26,6 +26,7 @@
 
 .slick-slider {
     position: sticky !important;
+    /* position:static; */
     left: 0;
     top: 0;
     bottom: 0;
