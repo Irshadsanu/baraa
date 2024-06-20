@@ -37,19 +37,20 @@ function Header() {
     };
   }, [isMenuOpen]);
 
-
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    }
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
   return (
     <div>
       <header className={`${isMenuOpen ? "open" : ""}`}>
         <div className="logo">
-          <img src={assets.Logo} alt="Logo" />
+          <Link to="/">
+            <img src={assets.Logo} alt="Logo" />
+          </Link>
         </div>
         <ul className="nav">
           <li

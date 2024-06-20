@@ -4,7 +4,7 @@ import { assets } from "../../Assets/Assets";
 
 function ServiceRegular() {
   return (
-    <div className="service-regular">
+    <div className="service-regular" id="legal-support">
       <h3>Regular Support Services</h3>
       <div className="service-list">
         <div className="item">

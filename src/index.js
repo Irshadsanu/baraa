@@ -3,6 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactPixel from 'react-facebook-pixel';
+
+const options = {
+  autoConfig: true,  // set pixel's autoConfig
+  debug: false,      // enable logs
+};
+ReactPixel.init('YOUR_PIXEL_ID', options);
+ReactPixel.pageView();  // For tracking page view
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

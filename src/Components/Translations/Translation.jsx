@@ -4,7 +4,7 @@ import { assets } from "../../Assets/Assets";
 
 function Translations() {
   return (
-    <div className="translation">
+    <div className="translation" id="translation">
       <h4>Certified Translation Serices</h4>
       <p>
         We offer translation in 300+ languages, specializing in legal,

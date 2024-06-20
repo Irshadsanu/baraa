@@ -1,5 +1,5 @@
-import React from 'react'
-import "./GlobalVisa.css"
+import React from "react";
+import "./GlobalVisa.css";
 
 const GlobalVisa = () => {
     return (
@@ -16,4 +16,4 @@ const GlobalVisa = () => {
     )
 }
 
-export default GlobalVisa
+export default GlobalVisa;
