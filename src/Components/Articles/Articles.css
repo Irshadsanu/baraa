@@ -19,13 +19,54 @@
     display: flex;
     justify-content: start;
     align-items: end;
-    background: url(../../Assets/Images/invest.png);
     width: 70%;
     margin: 0 auto;
     background-repeat: no-repeat;
     text-align: left;
     border-radius: 8px;
+    background-size: cover;
 }
+
+.saudione {
+    background: url(../../Assets/Images/invest.png);
+}
+
+.sauditwo {
+    background: url(../../Assets/Images/invest2.png);
+}
+
+.riyadh {
+    background: url(../../Assets/Images/riyadh.png);
+}
+
+.diriyah {
+    background: url(../../Assets/Images/diriyah.png);
+}
+
+.makkah {
+    background: url(../../Assets/Images/Makkah.png);
+}
+
+.madinah {
+    background: url(../../Assets/Images/Madinah.png);
+}
+
+.ahsa {
+    background: url(../../Assets/Images/Al\ Ahsa.png);
+}
+
+.jeddah {
+    background: url(../../Assets/Images/Jeddah.png);
+}
+
+.dammam {
+    background: url(../../Assets/Images/Dammam.png);
+}
+
+.abha {
+    background: url(../../Assets/Images/Abha.png);
+}
+
 
 .articles .article-home h3 {
     color: #fff;
@@ -53,6 +94,14 @@
     padding: 0 150px;
 }
 
+.articles h5 {
+    font-size: 24px;
+    padding: 0 50px;
+    text-align: left;
+    width: 76%;
+    margin: 0 auto 30px;
+}
+
 .articles .article-details span {
     font-size: 18px;
     margin-bottom: 20px;
@@ -71,6 +120,8 @@
     margin: 0 0 20px 0;
 }
 
+
+/* 
 .articles .article-invest {
     padding: 100px 0 100px 100px;
     display: flex;
@@ -100,7 +151,7 @@
     background-color: transparent;
     color: #fff;
     font-size: 14px;
-}
+} */
 
 
 
