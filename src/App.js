@@ -5,6 +5,8 @@ import ServicePage from "./Pages/ServicePage/ServicePage";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import Blog from "./Pages/Blog/Blog";
 import Contact from "./Pages/Contact/Contact";
+import BlogMain from "./Pages/BlogMain/BlogMain";
+import ComingSoon from "./Components/ComingSoon/ComingSoon";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/come" element={<ComingSoon />} />
+          {/* <Route path="/blog/UNVEILING SAUDI ARABIA" element={<BlogMain />} /> */}
         </Routes>
       </Router>
     </div>

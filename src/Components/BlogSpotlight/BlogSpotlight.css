@@ -1,11 +1,11 @@
 .blogSpotlight {
-    padding: 180px 100px 100px 80px;
+    padding: 180px 100px 150px 80px;
     display: flex;
     justify-content: start;
     align-items: end;
     background: url(../../Assets/Images/aboutspotlight.png);
     background-attachment: fixed;
-    height: 150px;
+    height: 200px;
 }
 
 .blogSpotlight .content {
