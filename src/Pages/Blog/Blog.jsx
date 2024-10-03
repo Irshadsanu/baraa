@@ -11,7 +11,7 @@ function Blog() {
     <div className="blog">
       <Header />
       <BlogSpotlight />
-      <RecentBlog />
+      {/* <RecentBlog /> */}
       <Articles />
       <Footer />
       <ScrollToTopButton />

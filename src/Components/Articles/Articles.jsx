@@ -16,8 +16,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Riyadh, the capital city, is a dynamic fusion of historical charm and
@@ -50,8 +50,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Known as the original home of the Saudi royal family, Diriyah is a place
@@ -88,8 +88,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Makkah, known as Mecca, is the spiritual heart of Saudi Arabia and the
@@ -127,8 +127,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Madinah, as the second holiest city in Islam, offers tranquility and
@@ -159,8 +159,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Celebrated for its lush landscapes and rich history, Al-Ahsa is one of
@@ -190,8 +190,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Jeddah is a vibrant city on the Red Sea coast, known for its art
@@ -238,8 +238,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Dammam is known for its modern amenities and scenic waterfronts and is
@@ -279,8 +279,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         Nestled in the Asir Mountains, Abha is a haven for nature lovers. Its
@@ -313,8 +313,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         KSA recently announced the establishment of new Special Integrated
@@ -350,8 +350,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <span>Author : Mohammed</span>
-        <span>Date : 21-04-2024</span>
+        {/* <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span> */}
       </div>
       <p>
         KSA recently announced the establishment of new Special Integrated

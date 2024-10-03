@@ -27,7 +27,7 @@ const navigator = useNavigate();
           At Baraa, we are more than just a business consulting firm; we are
           your knowledgeable guides through the ever-changing business
           environment in Saudi Arabia. Baraa was founded in 2023 and possesses
-          experience of three centuries in closely collaborating with Saudi
+          experience of three decades in closely collaborating with Saudi
           Arabia, comprehending its subtleties, and capitalizing on its
           prospects.
         </p>

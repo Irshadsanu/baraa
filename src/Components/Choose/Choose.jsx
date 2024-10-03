@@ -14,7 +14,7 @@ function Choose() {
           <h4>Why Choose us</h4>
           <h3>Choose Us to Grow Your Business</h3>
           <p>
-            Baraa has a three-century legacy and has proven to be resilient and
+            Baraa has a three decades legacy and has proven to be resilient and
             adaptable when faced with difficulties.
           </p>
           <ul className="advantege">

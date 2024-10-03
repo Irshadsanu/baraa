@@ -11,7 +11,7 @@ function History() {
       <div className="history-text">
         <h6>OUR HISTORY</h6>
         <p>
-          Baraa has a three-century legacy and has proven to be resilient and
+          Baraa has a three decades legacy and has proven to be resilient and
           adaptable when faced with difficulties. Our path has been
           characterized by constant learning and development, leading to a
           thorough comprehension of the prospects given by Saudi Arabia's
