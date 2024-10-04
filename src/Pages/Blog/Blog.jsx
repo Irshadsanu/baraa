@@ -12,7 +12,6 @@ function Blog() {
   return (
     <div className="blog">
       <BlogMain />
-      <BlogMore />
       <Footer />
       <ScrollToTopButton />
     </div>
