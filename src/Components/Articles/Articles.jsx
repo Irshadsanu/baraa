@@ -4,7 +4,7 @@ import blogData from "../../Data/blogs/blogsData";
 import BlogMore from "../BlogMore/BlogMore";
 function Articles() {
   const [currentBlog, setCurrentBlog] = useState(blogData[0]);
-  const suggetionBlogs = blogData.filter(({ id }) => id !== currentBlog?.id);
+  const suggetionBlogs = blogData;
 
   const handleBlogChange = (id) => {
     setCurrentBlog(blogData[id - 1]);
