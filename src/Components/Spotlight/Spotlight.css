@@ -1,5 +1,5 @@
 .spotlight {
-    background: url(../../Assets/Images/1\ Hero\ Section.png);
+    background: url(../../Assets/Images/3spot.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,14 +11,14 @@
 }
 
 .two {
-    background: url(../../Assets/Images/Home2.png);
+    background: url(../../Assets/Images/2spot.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .three {
-    background: url(../../Assets/Images/Homw3.png);
+    background: url(../../Assets/Images/1spot.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
