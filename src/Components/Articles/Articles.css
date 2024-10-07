@@ -234,4 +234,12 @@
     .articles .article-details {
         padding: 0 14px;
     }
+    .articles p {
+        width: 100%;
+    }
+    .articles h5 {
+        padding: 0;
+        width: 100%;
+        
+    }
 }
