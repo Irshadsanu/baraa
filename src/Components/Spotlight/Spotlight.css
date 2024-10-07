@@ -84,6 +84,9 @@
         background-size: cover;
 
     }
+    .two {
+        background-position: left;
+    }
     .spotlight .content {
         padding: 50px;
     }
