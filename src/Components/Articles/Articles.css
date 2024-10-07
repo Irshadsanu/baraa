@@ -11,9 +11,10 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
+
 .article_boxey h4 {
     font-size: 26px;
-    margin: 30px 0  ;
+    margin: 30px 0;
 }
 
 .articles h6 {
@@ -115,6 +116,7 @@
     text-align: left;
     width: 76%;
     margin: 0 auto 30px;
+    font-weight: 500;
 }
 
 .articles .article-details span {

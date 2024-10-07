@@ -9,8 +9,8 @@ const blogData = [
     content: [
       {
         subheading: "Investing in Riyadh",
-        section_heading: "1.Top Places to Visit in Riyadh:",
-        img:assets.riyadh,
+        section_heading: "1.Top Places to Visit in <strong>Riyadh:</strong> ",
+        img: assets.riyadh,
         text: "Riyadh, the capital city, is a dynamic fusion of historical charm and modern sophistication as well as a bustling metropolis that seamlessly blends the old with the new. From ancient fortresses to world-class shopping and dining, Riyadh offers a rich cultural experience.",
         places: [
           {
@@ -32,8 +32,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Diriyah",
-        section_heading: "2.Top Places to Visit in Diriyah:",
-        img:assets.diriyah,
+        section_heading: "2.Top Places to Visit in <strong> Diriyah: </strong>",
+        img: assets.diriyah,
         text: "Known as the original home of the Saudi royal family, Diriyah is a place where history and culture come alive. Wander through this UNESCO World Heritage site to explore the mud-brick fortifications and traditional Najdi architecture.",
         places: [
           {
@@ -55,8 +55,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Makkah",
-        section_heading: "3.Top Places to Visit in Makkah:",
-        img:assets.Makkah,
+        section_heading: "3.Top Places to Visit in <strong> Makkah: </strong>",
+        img: assets.Makkah,
         text: "Makkah, known as Mecca, is the spiritual heart of Saudi Arabia and the holiest city in Islam, drawing millions of pilgrims annually.",
         places: [
           {
@@ -88,8 +88,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Madinah",
-        section_heading: "4.Top Places to Visit in Madinah:",
-        img:assets.Madinah,
+        section_heading: "4.Top Places to Visit in <strong> Madinah: </strong>",
+        img: assets.Madinah,
         text: "Madinah, the second holiest city in Islam, offers tranquility and religious significance. The city is rich in historical sites and offers stunning views for pilgrims and visitors alike.",
         places: [
           {
@@ -106,8 +106,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Al Ahsa",
-        section_heading: "5.Top Places to Visit in Ahsa:",
-        img:assets.AlAhsa,
+        section_heading: "5.Top Places to Visit in <strong> Ahsa: </strong>",
+        img: assets.AlAhsa,
         text: "Celebrated for its lush landscapes and rich history, Al Ahsa is one of the world’s largest natural agricultural oases with over 3 million palm trees.",
         places: [
           {
@@ -124,8 +124,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Jeddah",
-        section_heading: "6.Top Places to Visit in Jeddah:",
-        img:assets.Jeddah,
+        section_heading: "6.Top Places to Visit in <strong> Jeddah: </strong>",
+        img: assets.Jeddah,
         text: "Jeddah is a vibrant city on the Red Sea coast, known for its art galleries, historic sites, and stunning waterfront.",
         places: [
           {
@@ -152,8 +152,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Dammam",
-        section_heading: "7.Top Places to Visit in Dammam:",
-        img:assets.Dammam,
+        section_heading: "7.Top Places to Visit in <strong> Dammam: </strong>",
+        img: assets.Dammam,
         text: "Dammam is known for its modern amenities and scenic waterfronts, blending history with modern life.",
         places: [
           {
@@ -184,8 +184,8 @@ const blogData = [
       },
       {
         subheading: "Investing in Abha",
-        section_heading: "8.Top Places to Visit in Abha:",
-        img:assets.Abha,
+        section_heading: "8.Top Places to Visit in <strong>Abha:</strong>",
+        img: assets.Abha,
         text: "Nestled in the Asir Mountains, Abha is a haven for nature lovers, with its cool climate, lush landscapes, and scenic views.",
         places: [
           {
@@ -211,31 +211,30 @@ const blogData = [
     content: [
       // {
       //   subheading: "Coming Soon",
-        // section_heading: "Top Places to Visit in Riyadh:",
-        // img:assets.Abha,
-        // text: "From budgeting to outlining the itinerary, planning vacations are equally exhausting and overwhelming. A major part of the work goes into deciding the right destination, we can help you out here!",
-        // places: [
-        //   {
-        //     name: "King Abdulaziz Historical Center",
-        //     details:
-        //       "Dive into Saudi Arabia’s past with exhibitions that showcase the nation’s cultural and historical journey.",
-        //   },
-        //   {
-        //     name: "Edge of The World",
-        //     details:
-        //       "For adventure seekers, this breathtaking cliff offers stunning views of the endless desert horizon.",
-        //   },
-        //   {
-        //     name: "Kingdom Centre Tower",
-        //     details:
-        //       "An iconic skyscraper, where visitors can enjoy panoramic views of the city.",
-        //   },
-        // ],
+      // section_heading: "Top Places to Visit in Riyadh:",
+      // img:assets.Abha,
+      // text: "From budgeting to outlining the itinerary, planning vacations are equally exhausting and overwhelming. A major part of the work goes into deciding the right destination, we can help you out here!",
+      // places: [
+      //   {
+      //     name: "King Abdulaziz Historical Center",
+      //     details:
+      //       "Dive into Saudi Arabia’s past with exhibitions that showcase the nation’s cultural and historical journey.",
+      //   },
+      //   {
+      //     name: "Edge of The World",
+      //     details:
+      //       "For adventure seekers, this breathtaking cliff offers stunning views of the endless desert horizon.",
+      //   },
+      //   {
+      //     name: "Kingdom Centre Tower",
+      //     details:
+      //       "An iconic skyscraper, where visitors can enjoy panoramic views of the city.",
+      //   },
+      // ],
       // },
       //   {
       //     subheading: "Investing in Diriyah",
       //     section_heading: "Top Places to Visit in Diriyah:",
-
       //     text: "Known as the original home of the Saudi royal family, Diriyah is a place where history and culture come alive. Wander through this UNESCO World Heritage site to explore the mud-brick fortifications and traditional Najdi architecture.",
       //     places: [
       //       {
@@ -290,7 +289,6 @@ const blogData = [
       //   {
       //     subheading: "Investing in Madinah",
       //     section_heading: "Top Places to Visit in Madinah:",
-
       //     text: "Madinah, the second holiest city in Islam, offers tranquility and religious significance. The city is rich in historical sites and offers stunning views for pilgrims and visitors alike.",
       //     places: [
       //       {
@@ -308,7 +306,6 @@ const blogData = [
       //   {
       //     subheading: "Investing in Al Ahsa",
       //     section_heading: "Top Places to Visit in Ahsa:",
-
       //     text: "Celebrated for its lush landscapes and rich history, Al Ahsa is one of the world’s largest natural agricultural oases with over 3 million palm trees.",
       //     places: [
       //       {
@@ -326,7 +323,6 @@ const blogData = [
       //   {
       //     subheading: "Investing in Jeddah",
       //     section_heading: "Top Places to Visit in Jeddah:",
-
       //     text: "Jeddah is a vibrant city on the Red Sea coast, known for its art galleries, historic sites, and stunning waterfront.",
       //     places: [
       //       {
@@ -354,7 +350,6 @@ const blogData = [
       //   {
       //     subheading: "Investing in Dammam",
       //     section_heading: "Top Places to Visit in Dammam:",
-
       //     text: "Dammam is known for its modern amenities and scenic waterfronts, blending history with modern life.",
       //     places: [
       //       {
@@ -386,7 +381,6 @@ const blogData = [
       //   {
       //     subheading: "Investing in Abha",
       //     section_heading: "Top Places to Visit in Abha:",
-
       //     text: "Nestled in the Asir Mountains, Abha is a haven for nature lovers, with its cool climate, lush landscapes, and scenic views.",
       //     places: [
       //       {

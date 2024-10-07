@@ -47,7 +47,7 @@ function Articles() {
                 </div>
                 <div className="article-details"></div>
                 <p>{text}</p>
-                <h5>{section_heading}</h5>
+                <h5 dangerouslySetInnerHTML={{ __html: section_heading }} />
                 {places?.map(({ name, details }) => (
                   <p>
                     <b>{name} : </b> {details}
