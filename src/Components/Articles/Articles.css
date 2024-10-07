@@ -29,6 +29,7 @@
 }
 
 .articles .article-home {
+    background: var(--bg);
     padding: 100px 0 100px 100px;
     display: flex;
     justify-content: start;
@@ -41,7 +42,7 @@
     background-size: cover;
 }
 
-.saudione {
+/* .saudione {
     background: url(../../Assets/Images/invest.png);
 }
 
@@ -79,7 +80,7 @@
 
 .abha {
     background: url(../../Assets/Images/Abha.png);
-}
+} */
 
 
 .articles .article-home h3 {

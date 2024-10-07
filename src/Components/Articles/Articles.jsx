@@ -29,12 +29,13 @@ function Articles() {
           <h4>{currentBlog.title}</h4>
 
           {currentBlog?.content?.map(
-            ({ subheading, text, section_heading, places }) => (
+            ({ subheading, text, section_heading, places ,img}) => (
               <>
-                <div className="article-home riyadh">
-                  <div className="content">
+                <div className="article-home" style={{ "--bg": `url(${img})` , backgroundPosition: 'center', 
+                 backgroundRepeat: 'no-repeat',  backgroundSize: 'cover'    }}>
+                  <div className="content" >
                     <h3>{subheading}</h3>
-                    <p className="imgp">{text?.slice(0, 80) + "..."}</p>
+                    <p className="imgp">{text?.   (0, 80) + "..."}</p>
                   </div>
                 </div>
                 <div className="article-details"></div>

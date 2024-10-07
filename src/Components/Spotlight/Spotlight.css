@@ -78,6 +78,12 @@
 }
 
 @media (max-width: 640px) {
+    .spotlight {
+        height: 80vh;
+        background-position: center;
+        background-size: cover;
+
+    }
     .spotlight .content {
         padding: 50px;
     }

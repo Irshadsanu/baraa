@@ -30,6 +30,16 @@ import visa from "./Images/visa.svg"
 import up from "./Images/up.svg"
 import leftRR from "./Images/leftbb.svg"
 import rightRR from "./Images/rightbb.svg"
+import invest from "./Images/invest.png"
+import invest2 from "./Images/Ahsa.jpg"
+import riyadh from "./Images/RIYADH.jpg"
+import diriyah from "./Images/DIRIYAH.jpg"
+import Makkah from "./Images/Makkah.jpg"
+import Madinah from "./Images/Madinah.jpg"
+import AlAhsa from "./Images/Ahsa.jpg"
+import Jeddah from "./Images/Jeddah.jpg"
+import Dammam from "./Images/DAMMAM.jpg"
+import Abha from "./Images/Abha.jpg"
 
 
 export const assets = {
@@ -65,4 +75,15 @@ export const assets = {
   like,
   Hero,
   Choose_content,
+  Abha,
+  Dammam,
+  Jeddah,
+  AlAhsa,
+  Madinah,
+  Makkah,
+  diriyah,
+  riyadh,
+  invest2,
+  invest
 };
+
