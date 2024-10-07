@@ -240,6 +240,9 @@
     .articles h5 {
         padding: 0;
         width: 100%;
-        
+
+    }
+    .article_boxey{
+        padding: 10px;
     }
 }
