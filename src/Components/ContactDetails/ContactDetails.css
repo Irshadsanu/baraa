@@ -43,7 +43,7 @@
 }
 
 .contactdetails .main-bx .details-left .item {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contactdetails .main-bx .details-left .item p {
@@ -221,12 +221,22 @@
     .contactdetails .main-bx form {
         padding-left: 0;
     }
+    .contactdetails .main-bx .details-left .item {
+        margin-bottom: 5px;
+    }
 
     .contactdetails .main-bx form input,
     .contactdetails .main-bx form input.msg {
         width: 100%;
         text-align: center;
 
+    }
+
+    .contactdetails .main-bx .details-left .item .top svg {
+
+        margin-right: 0px;
+        display: none;
+       
     }
 
     .map {

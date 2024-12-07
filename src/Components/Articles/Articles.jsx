@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Articles.css";
 import blogData from "../../Data/blogs/blogsData";
 import BlogMore from "../BlogMore/BlogMore";
+
 function Articles() {
   const [currentBlog, setCurrentBlog] = useState(blogData[0]);
   const suggetionBlogs = blogData;
@@ -22,14 +23,17 @@ function Articles() {
     );
   };
 
+  
+
   return (
     <>
       <div className="articles">
         <div className="article_boxey">
           <h4>{currentBlog.title}</h4>
+          <p>{currentBlog.discription}</p>
 
           {currentBlog?.content?.map(
-            ({ subheading, text, section_heading, places, img }) => (
+            ({ subheading, text, section_heading, places, img,concultion }) => (
               <>
                 <div
                   className="article-home"
@@ -42,14 +46,17 @@ function Articles() {
                 >
                   <div className="content">
                     <h3>{subheading}</h3>
-                    <p className="imgp">{text.slice(0, 80) + "..."}</p>
+                    <p
+                      className="imgp" ></p>
                   </div>
                 </div>
                 <div className="article-details"></div>
-                <p>{text}</p>
-                <h5 dangerouslySetInnerHTML={{ __html: section_heading }} />
+                <p  dangerouslySetInnerHTML={{ __html: text }}></p>
+                <h5
+                  dangerouslySetInnerHTML={{ __html: section_heading }}
+                />
                 {places?.map(({ name, details }) => (
-                  <p>
+                  <p key={name}>
                     <b>{name} : </b> {details}
                   </p>
                 ))}

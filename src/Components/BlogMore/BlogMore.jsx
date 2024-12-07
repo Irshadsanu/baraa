@@ -8,12 +8,12 @@ const BlogMore = ({ data, handleClick }) => {
     <div className="more_read">
       <h4>More for you to read</h4>
       <div className="more_list">
-        {data?.map(({ id, title, content, small_thumb }) => (
+        {data?.map(({ id, title, content, small_thumb ,seeMore}) => (
           <div className="more_item" onClick={() => handleClick(id)}>
             <img src={small_thumb} alt="" />
             <div className="more_subcontent">
               <h6>{title}</h6>
-              <p>{content[0]?.text}</p>
+              <p>{seeMore}</p>
             </div>
           </div>
         ))}

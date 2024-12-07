@@ -128,7 +128,7 @@
     padding: 0 50px;
     text-align: left;
     width: 76%;
-    margin: 0 auto 30px;
+    margin: 0 auto 20px;
 }
 
 .articles p.imgp {
@@ -242,5 +242,8 @@
         padding: 0;
         width: 100%;
         
+    }
+    .article_boxey{
+        width: 70%;
     }
 }
